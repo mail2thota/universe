@@ -1,0 +1,25 @@
+{
+	"id": "consul",
+	"cmd": "consul agent -server -bind=10.69.32.146 -bootstrap-expect=1",
+	"instances": 1,
+	"cpus": 0.25,
+	"mem": 512,
+	"container": {
+		"type": "DOCKER",
+		"docker": {
+			"image": "{{resource.assets.container.docker.1cf544433cf6}}",
+			"network": "BRIDGE",
+			"portMappings": [{
+				"containerPort": 8500,
+				"servicePort": 0,
+				"hostPort": 8500,
+				"protocol": "tcp"
+			}]
+		}
+	},
+	"env": {
+	"CONSUL_LOCAL_CONFIG": {
+		"skip_leave_on_interrupt": true
+	}
+	}
+}

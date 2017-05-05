@@ -1,0 +1,17 @@
+{
+ "images": {
+   "icon-small": "https://raw.githubusercontent.com/docker-library/docs/27b03f6f9076e05839961530006185998660f321/consul/logo.png",
+   "icon-medium": "https://raw.githubusercontent.com/docker-library/docs/27b03f6f9076e05839961530006185998660f321/consul/logo.png",
+   "icon-large": "https://raw.githubusercontent.com/docker-library/docs/27b03f6f9076e05839961530006185998660f321/consul/logo.png",
+   "screenshots": [
+     "https://raw.githubusercontent.com/docker-library/docs/27b03f6f9076e05839961530006185998660f321/consul/logo.png"
+   ]
+ },
+ "assets": {
+   "container": {
+     "docker": {
+       "1cf544433cf6": "consul:latest"
+     }
+   }
+ }
+}

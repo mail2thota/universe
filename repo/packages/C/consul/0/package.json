@@ -1,0 +1,20 @@
+{
+ "packagingVersion": "3.0",
+ "name": "consul",
+ "version": "0.0.1",
+ "scm": "https://github.com/hashicorp/consul",
+ "maintainer": "satya.thota@baesystems.com",
+ "description": "Just Consul",
+ "framework": false,
+ "tags": ["mesosphere", "service", "consul"],
+ "licenses": [
+   {
+     "name": "MPL-2.0",
+     "url": "https://github.com/hashicorp/consul/blob/master/LICENSE"
+   }
+ ],
+ "website": "https://www.consul.io/",
+ "postInstallNotes": "Consul installed!",
+ "preInstallNotes": "Read this message before installing please",
+ "postUninstallNotes": "Thank you for using consul"
+}
